@@ -1,9 +1,0 @@
-{
-  "mqtt": {
-    "username": "username",
-    "password": "password",
-    "broker_address": "broker_address.ddns.net",
-    "id_name": "id_name",
-
-  }
-}
