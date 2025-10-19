@@ -14,8 +14,8 @@
 // GND -- GND
 
 #ifdef ESP32
-  #define echoPin GPIO_ID_PIN(8)
-  #define trigPin GPIO_ID_PIN(7)
+  #define echoPin (8)   // Previously GPIO_ID_PIN(8)
+  #define trigPin (7)   // Previously GPIO_ID_PIN(7)
 #elif defined(ESP8266)
   #define echoPin D8
   #define trigPin D7
